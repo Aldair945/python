@@ -1,4 +1,5 @@
 import os
+
 def list_of_files_and_directories(path="."):
     print(f"Contetnts of:{path}")
 
@@ -14,5 +15,5 @@ def list_of_files_and_directories(path="."):
     alls=os.listdir(path)
     print(alls)
 
-path="C:\\destination\\python\\lab6"
+path="C:\\Users\\Aldo\\Desktop\\github.python\\python\\lab6"
 list_of_files_and_directories(path)

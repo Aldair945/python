@@ -10,5 +10,5 @@ def check_path(path):
         print("Path doesn't exist")
         return
     
-path="C:\\destination\\python\\lab6"
+path="C:\\Users\\Aldo\\Desktop\\github.python\\python\\lab6"
 check_path(path)

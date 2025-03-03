@@ -9,5 +9,5 @@ def checking_for_access(path):
         print("Writable" if os.access(path, os.W_OK) else "Not writable")
         print("Executable" if os.access(path, os.X_OK) else "Not executable")
 
-path="C:\\destination\\python\\lab6"
+path="C:\\Users\\Aldo\\Desktop\\github.python\\python\\lab6"
 checking_for_access(path)
