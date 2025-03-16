@@ -25,7 +25,7 @@ while run:
     if keys[pygame.K_DOWN] and ball_y + radius + step <= 300:
         ball_y += step
 
-    # Draw the ball
+
     pygame.draw.circle(screen, ball_color, (ball_x, ball_y), radius)
 
     pygame.display.flip()
